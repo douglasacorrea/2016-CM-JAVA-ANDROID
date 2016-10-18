@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.douglas.p1_01.MainActivity">
+
+    <Button
+        android:text="Acessar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="63dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="72dp"
+        android:id="@+id/acessoButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/senhaTextView"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/usuarioTextView"
+        android:layout_alignStart="@+id/usuarioTextView"
+        android:text="Senha" />
+
+    <TextView
+        android:text="Bem Vindo ao Sistema de Estudos - SIDED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="arial" />
+
+    <Button
+        android:text="Limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/limparButton"
+        android:layout_alignBaseline="@+id/acessoButton"
+        android:layout_alignBottom="@+id/acessoButton"
+        android:layout_alignRight="@+id/senhaTextView"
+        android:layout_alignEnd="@+id/senhaTextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginBottom="27dp"
+        android:id="@+id/usuarioTextView"
+        android:text="E-mail do usuário"
+        android:layout_above="@+id/senhaTextView"
+        android:layout_alignLeft="@+id/acessoButton"
+        android:layout_alignStart="@+id/acessoButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/acessoButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/resultadoTextView" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P1_01</string>
+
+    <string-array name="array_cursos">
+        <item >Curso 1</item>
+        <item >Curso 2</item>
+    </string-array>
+    <string-array name="array_aulas">
+        <item >Aula 1</item>
+        <item >Aula 2</item>
+     </string-array>
+
+</resources>
